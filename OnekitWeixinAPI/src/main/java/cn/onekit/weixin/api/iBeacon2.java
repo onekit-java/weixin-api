@@ -4,7 +4,7 @@ package cn.onekit.weixin.api;
 import cn.onekit.JsAny;
 
 
-class class IBeacon implements JsAny {
+public class IBeacon implements JsAny {
     String uuid;
     String major;
     String minor;
