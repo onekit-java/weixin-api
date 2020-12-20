@@ -1,7 +1,8 @@
 package cn.onekit.weixin.api;
 
 
-import cn.onekit.JsAny;
+import cn.onekit.js.JsAny;
+import cn.onekit.js.JsString;
 
 
 public class IBeacon implements JsAny {
@@ -57,7 +58,7 @@ public class IBeacon implements JsAny {
     }
 
     @Override
-    public JsAny ToString() {
+    public JsString ToString() {
         return null;
     }
 

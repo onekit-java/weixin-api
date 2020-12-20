@@ -37,10 +37,10 @@ import com.google.zxing.Result;
 import java.util.Collection;
 import java.util.Map;
 
-import cn.onekit.weixin.app.R;
-import cn.onekit.weixin.core.zxing.camera.CameraManager;
-import cn.onekit.weixin.core.zxing.decode.DecodeThread;
-import cn.onekit.weixin.core.zxing.view.ViewfinderResultPointCallback;
+import cn.onekit.weixin.api.R;
+import cn.onekit.weixin.api.core.zxing.camera.CameraManager;
+import cn.onekit.weixin.api.core.zxing.decode.DecodeThread;
+import cn.onekit.weixin.api.core.zxing.view.ViewfinderResultPointCallback;
 
 /**
  * This class handles all the messaging which comprises the state machine for

@@ -2,7 +2,7 @@ package cn.onekit.weixin.api.core.wx;
 
 import java.util.Map;
 
-import cn.onekit.js.core.function;
+import cn.onekit.js.function;
 
 public class WxIBeacon extends WxGyroscope {
 

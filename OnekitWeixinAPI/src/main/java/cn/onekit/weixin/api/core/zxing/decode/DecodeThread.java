@@ -32,8 +32,8 @@ import java.util.EnumSet;
 import java.util.Map;
 import java.util.concurrent.CountDownLatch;
 
-import cn.onekit.weixin.core.zxing.android.CaptureActivity;
-import cn.onekit.weixin.core.zxing.android.PreferencesActivity;
+import cn.onekit.weixin.api.core.zxing.android.CaptureActivity;
+import cn.onekit.weixin.api.core.zxing.android.PreferencesActivity;
 
 /**
  * This thread does all the heavy lifting of decoding the images.

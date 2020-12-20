@@ -1,7 +1,7 @@
 package cn.onekit.weixin.api;
 
 import cn.onekit.js.JsObject;
-import cn.onekit.js.core.function;
+import cn.onekit.js.function;
 
 public class MediaRecorder {
     public void destroy(){

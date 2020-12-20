@@ -29,7 +29,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.regex.Pattern;
 
-import cn.onekit.weixin.core.zxing.android.Intents;
+import cn.onekit.weixin.api.core.zxing.android.Intents;
 
 public final class DecodeFormatManager {
 

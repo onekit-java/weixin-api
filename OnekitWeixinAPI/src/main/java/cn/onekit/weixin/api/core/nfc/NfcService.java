@@ -4,7 +4,7 @@ import android.nfc.cardemulation.HostApduService;
 import android.os.Bundle;
 
 import cn.onekit.js.JsObject;
-import cn.onekit.js.core.function;
+import cn.onekit.js.function;
 
 public class NfcService extends HostApduService {
     public static function callback;

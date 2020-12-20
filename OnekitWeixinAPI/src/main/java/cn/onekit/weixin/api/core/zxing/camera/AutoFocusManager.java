@@ -28,7 +28,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.concurrent.RejectedExecutionException;
 
-import cn.onekit.weixin.core.zxing.android.PreferencesActivity;
+import cn.onekit.weixin.api.core.zxing.android.PreferencesActivity;
 
 
 /**

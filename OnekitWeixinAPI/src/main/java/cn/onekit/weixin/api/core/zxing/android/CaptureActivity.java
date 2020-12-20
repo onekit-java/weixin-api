@@ -40,11 +40,11 @@ import java.util.Hashtable;
 import java.util.Map;
 
 import cn.onekit.thekit.Android;
-import cn.onekit.weixin.app.R;
-import cn.onekit.weixin.core.zxing.RGBLuminanceSource;
-import cn.onekit.weixin.core.zxing.Utils;
-import cn.onekit.weixin.core.zxing.camera.CameraManager;
-import cn.onekit.weixin.core.zxing.view.ViewfinderView;
+import cn.onekit.weixin.api.R;
+import cn.onekit.weixin.api.core.zxing.RGBLuminanceSource;
+import cn.onekit.weixin.api.core.zxing.Utils;
+import cn.onekit.weixin.api.core.zxing.camera.CameraManager;
+import cn.onekit.weixin.api.core.zxing.view.ViewfinderView;
 
 /**
  * 这个activity打开相机，在后台线程做常规的扫描；它绘制了一个结果view来帮助正确地显示条形码，在扫描的时候显示反馈信息，

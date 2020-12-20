@@ -2,8 +2,8 @@ package cn.onekit.weixin.api;
 
 import java.util.Map;
 
-import cn.onekit.JsAny;
-import cn.onekit.js.core.function;
+import cn.onekit.js.JsAny;
+import cn.onekit.js.function;
 
 public class VideoDecoder {
     public Map getFrameData(){

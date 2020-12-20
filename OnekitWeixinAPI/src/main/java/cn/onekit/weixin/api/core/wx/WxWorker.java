@@ -8,7 +8,7 @@ import android.os.Message;
 
 import java.util.Map;
 
-import cn.onekit.js.core.function;
+import cn.onekit.js.function;
 
 public class WxWorker extends WxWindow {
 

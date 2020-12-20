@@ -1,7 +1,7 @@
 package cn.onekit.weixin.api;
 
 import cn.onekit.js.Map;
-import cn.onekit.js.core.function;
+import cn.onekit.js.function;
 
 public class CameraContext {
     public CameraFrameListener onCameraFrame(function callback) {

@@ -18,9 +18,10 @@ import cn.onekit.js.ArrayBuffer;
 import cn.onekit.js.JsArray;
 import cn.onekit.js.JsObject;
 
-import cn.onekit.js.core.function;
+import cn.onekit.js.JsString;
+import cn.onekit.js.function;
 import cn.onekit.thekit.Android;
-import cn.onekit.weixin.WX;
+import cn.onekit.weixin.api.WX;
 
 public class WxBLE extends WxBattery {
     BluetoothGattCallback _callback = new BluetoothGattCallback() {

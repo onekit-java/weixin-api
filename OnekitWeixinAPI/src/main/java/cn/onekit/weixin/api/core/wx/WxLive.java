@@ -1,8 +1,8 @@
 package cn.onekit.weixin.api.core.wx;
 
-import cn.onekit.JsAny;
-import cn.onekit.weixin.LivePlayerContext;
-import cn.onekit.weixin.LivePusherContext;
+import cn.onekit.js.JsAny;
+import cn.onekit.weixin.api.LivePlayerContext;
+import cn.onekit.weixin.api.LivePusherContext;
 
 public class WxLive extends WxLifeCycle {
     public LivePusherContext createLivePusherContext(){

@@ -1,6 +1,6 @@
 package cn.onekit.weixin.api.core.wx;
 
-import cn.onekit.weixin.UpdateManager;
+import cn.onekit.weixin.api.UpdateManager;
 
 public class WxUpdate extends WxUDP {
     public void updateWeChatApp() {

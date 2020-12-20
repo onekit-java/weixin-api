@@ -5,7 +5,7 @@ package cn.onekit.weixin.api;
 import cn.onekit.js.JsArray;
 import cn.onekit.js.JsObject;
 import cn.onekit.js.Map;
-import cn.onekit.js.core.function;
+import cn.onekit.js.function;
 
 public class Performance {
     public PerformanceObserver createObserver(function callback){

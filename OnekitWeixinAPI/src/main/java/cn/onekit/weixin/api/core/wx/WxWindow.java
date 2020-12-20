@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import cn.onekit.js.core.function;
+import cn.onekit.js.function;
 
 public class WxWindow extends WxWiFi {
     HashMap<Integer, Timer> timeouts = new HashMap();

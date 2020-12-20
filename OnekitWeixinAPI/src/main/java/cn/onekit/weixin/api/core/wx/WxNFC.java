@@ -8,12 +8,12 @@ import java.util.Map;
 
 import cn.onekit.js.ArrayBuffer;
 import cn.onekit.js.JsArray;
-import cn.onekit.js.core.function;
+import cn.onekit.js.function;
 import cn.onekit.thekit.Android;
-import cn.onekit.weixin.NFCAdapter;
-import cn.onekit.weixin.app.R;
-import cn.onekit.weixin.core.nfc.NfcService;
-import cn.onekit.weixin.core.res.wx_fail;
+import cn.onekit.weixin.api.NFCAdapter;
+import cn.onekit.weixin.api.R;
+import cn.onekit.weixin.api.core.nfc.NfcService;
+import cn.onekit.weixin.api.core.res.wx_fail;
 
 public class WxNFC extends WxNetwork {
     private NfcAdapter nfcAdapter;

@@ -23,10 +23,11 @@ import cn.onekit.js.JsBoolean;
 import cn.onekit.js.JsNumber;
 import cn.onekit.js.JsObject;
 
-import cn.onekit.js.core.function;
+import cn.onekit.js.JsString;
+import cn.onekit.js.function;
 import cn.onekit.thekit.Android;
-import cn.onekit.weixin.app.R;
-import cn.onekit.weixin.core.res.wx_fail;
+import cn.onekit.weixin.api.R;
+import cn.onekit.weixin.api.core.res.wx_fail;
 
 public class WxWiFi extends WxWeRun {
     // 定义WifiManager对象
@@ -407,14 +408,14 @@ public class WxWiFi extends WxWeRun {
         callback = OBJECT;
         ConnectivityManager manager = (ConnectivityManager) Android.context.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo wifiInfo = manager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
-        JsObject res;
+        final JsObject res;
         if (wifiInfo.isConnected()) {
             WifiManager wifiManager = (WifiManager) Android.context.getApplicationContext()
                     .getSystemService(Context.WIFI_SERVICE);
-            String  SSID = wifiManager.getConnectionInfo().getSSID();
-            String  BSSID = wifiManager.getConnectionInfo().getBSSID();
-            boolean  secure = getCipherType(Android.context, SSID);
-            int  signalStrength = mWifiInfo.getRssi() + 100;
+            final String  SSID = wifiManager.getConnectionInfo().getSSID();
+            final String  BSSID = wifiManager.getConnectionInfo().getBSSID();
+            final boolean  secure = getCipherType(Android.context, SSID);
+            final int  signalStrength = mWifiInfo.getRssi() + 100;
              res = new JsObject() {{
                 put("SSID", new JsString(SSID));
                 put("BSSID", new JsString(BSSID));

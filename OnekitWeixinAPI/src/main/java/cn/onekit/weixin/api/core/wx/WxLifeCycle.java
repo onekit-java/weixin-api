@@ -3,6 +3,7 @@ package cn.onekit.weixin.api.core.wx;
 import cn.onekit.core.OneKit;
 import cn.onekit.js.JsNumber;
 import cn.onekit.js.JsObject;
+import cn.onekit.js.JsString;
 
 
 import static cn.onekit.core.OneKit.launchPath;

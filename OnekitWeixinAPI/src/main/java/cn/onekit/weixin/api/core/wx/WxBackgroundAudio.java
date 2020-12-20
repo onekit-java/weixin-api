@@ -8,11 +8,11 @@ import java.io.IOException;
 import java.util.Map;
 
 import cn.onekit.js.JsObject;
-import cn.onekit.js.core.function;
+import cn.onekit.js.function;
 import cn.onekit.thekit.Android;
-import cn.onekit.weixin.BackgroundAudioManager;
-import cn.onekit.weixin.app.R;
-import cn.onekit.weixin.core.res.wx_fail;
+import cn.onekit.weixin.api.BackgroundAudioManager;
+import cn.onekit.weixin.api.R;
+import cn.onekit.weixin.api.core.res.wx_fail;
 
 
 public class WxBackgroundAudio extends WxBackground {

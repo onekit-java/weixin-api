@@ -1,10 +1,10 @@
 package cn.onekit.weixin.api.core.wx;
 
 
-import cn.onekit.JsAny;
+import cn.onekit.js.JsAny;
 import cn.onekit.js.Map;
-import cn.onekit.weixin.CanvasContext;
-import cn.onekit.weixin.OffscreenCanvas;
+import cn.onekit.weixin.api.CanvasContext;
+import cn.onekit.weixin.api.OffscreenCanvas;
 
 public class WxCanvas extends WxCamera {
     public OffscreenCanvas createOffscreenCanvas(){

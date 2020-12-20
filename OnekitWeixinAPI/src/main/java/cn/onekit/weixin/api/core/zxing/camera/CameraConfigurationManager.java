@@ -28,7 +28,7 @@ import android.view.WindowManager;
 
 import java.lang.reflect.Method;
 
-import cn.onekit.weixin.core.zxing.android.PreferencesActivity;
+import cn.onekit.weixin.api.core.zxing.android.PreferencesActivity;
 
 /**
  * Camera参数配置

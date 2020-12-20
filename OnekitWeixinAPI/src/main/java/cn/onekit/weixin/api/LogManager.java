@@ -1,6 +1,6 @@
 package cn.onekit.weixin.api;
 
-import cn.onekit.JsAny;
+import cn.onekit.js.JsAny;
 
 public  class LogManager {
      public void debug(JsAny... args){};

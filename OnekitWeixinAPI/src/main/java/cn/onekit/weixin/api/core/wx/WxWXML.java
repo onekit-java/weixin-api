@@ -2,8 +2,8 @@ package cn.onekit.weixin.api.core.wx;
 
 import java.util.Map;
 
-import cn.onekit.weixin.IntersectionObserver;
-import cn.onekit.weixin.SelectorQuery;
+import cn.onekit.weixin.api.IntersectionObserver;
+import cn.onekit.weixin.api.SelectorQuery;
 
 public class WxWXML extends WxWorker {
     public SelectorQuery createSelectorQuery() {

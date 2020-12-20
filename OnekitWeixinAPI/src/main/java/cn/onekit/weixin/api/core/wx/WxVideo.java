@@ -2,8 +2,8 @@ package cn.onekit.weixin.api.core.wx;
 
 import java.util.Map;
 
-import cn.onekit.JsAny;
-import cn.onekit.weixin.VideoContext;
+import cn.onekit.js.JsAny;
+import cn.onekit.weixin.api.VideoContext;
 
 public class WxVideo extends WxVibrate {
     public void saveVideoToPhotosAlbum(Map OBJECT){

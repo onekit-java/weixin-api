@@ -23,7 +23,8 @@ import cn.onekit.js.JsArray;
 import cn.onekit.js.JsNumber;
 import cn.onekit.js.JsObject;
 
-import cn.onekit.weixin.app.R;
+import cn.onekit.js.JsString;
+import cn.onekit.weixin.api.R;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;

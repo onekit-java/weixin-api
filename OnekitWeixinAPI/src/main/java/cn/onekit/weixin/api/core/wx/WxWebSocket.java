@@ -8,10 +8,10 @@ import java.util.Map;
 
 import cn.onekit.js.JsArray;
 import cn.onekit.js.JsObject;
-import cn.onekit.js.core.function;
+import cn.onekit.js.function;
 import cn.onekit.thekit.Android;
-import cn.onekit.weixin.app.R;
-import cn.onekit.weixin.core.res.wx_fail;
+import cn.onekit.weixin.api.R;
+import cn.onekit.weixin.api.core.res.wx_fail;
 
 public class WxWebSocket extends WxVoIP {
     WebSocketClient socketClient;
@@ -50,7 +50,7 @@ public class WxWebSocket extends WxVoIP {
             };
             socketClient.connect();
             JsObject res = new JsObject();
-//            res.errMsg = Android.context.getResources().getString(cn.onekit.weixin.R.string.wx_connectSocket_success);
+//            res.errMsg = Android.context.getResources().getString(cn.onekit.weixin.api.R.string.wx_connectSocket_success);
             if (success != null) {
                 success.invoke(res);
             }
@@ -59,7 +59,7 @@ public class WxWebSocket extends WxVoIP {
             }
         } catch (Exception e) {
             wx_fail res = new wx_fail(Android.context.getResources().getString(R.string.wx_connectSocket_fail));
-//            res.errMsg = Android.context.getResources().getString(cn.onekit.weixin.R.string.wx_connectSocket_fail);
+//            res.errMsg = Android.context.getResources().getString(cn.onekit.weixin.api.R.string.wx_connectSocket_fail);
             if (fail != null) {
                 fail.invoke(res);
             }

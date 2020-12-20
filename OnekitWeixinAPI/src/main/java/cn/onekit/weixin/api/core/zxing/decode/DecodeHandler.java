@@ -34,8 +34,8 @@ import com.google.zxing.common.HybridBinarizer;
 import java.io.ByteArrayOutputStream;
 import java.util.Map;
 
-import cn.onekit.weixin.app.R;
-import cn.onekit.weixin.core.zxing.android.CaptureActivity;
+import cn.onekit.weixin.api.R;
+import cn.onekit.weixin.api.core.zxing.android.CaptureActivity;
 
 public final class DecodeHandler extends Handler {
 

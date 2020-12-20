@@ -1,6 +1,6 @@
 package cn.onekit.weixin.api.core.wx;
 
-import cn.onekit.js.core.function;
+import cn.onekit.js.function;
 
 public class WxMemoryWarning extends WxMediaRecorder{
     public void onMemoryWarning(function callback) {

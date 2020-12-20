@@ -34,8 +34,8 @@ import com.google.zxing.ResultPoint;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.onekit.weixin.app.R;
-import cn.onekit.weixin.core.zxing.camera.CameraManager;
+import cn.onekit.weixin.api.R;
+import cn.onekit.weixin.api.core.zxing.camera.CameraManager;
 
 /**
  * This view is overlaid on top of the camera preview. It adds the viewfinder

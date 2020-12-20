@@ -1,7 +1,7 @@
 package cn.onekit.weixin.api.core.wx;
 
-import cn.onekit.JsAny;
-import cn.onekit.weixin.Performance;
+import cn.onekit.js.JsAny;
+import cn.onekit.weixin.api.Performance;
 
 public class WxPerformance extends WxPayment {
 

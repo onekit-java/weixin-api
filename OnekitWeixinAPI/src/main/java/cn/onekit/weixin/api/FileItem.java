@@ -1,6 +1,7 @@
 package cn.onekit.weixin.api;
 
-import cn.onekit.JsAny;
+import cn.onekit.js.JsAny;
+import cn.onekit.js.core.JsClass;
 
 
 public class FileItem extends JsClass {

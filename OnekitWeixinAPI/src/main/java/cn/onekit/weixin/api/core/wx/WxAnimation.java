@@ -8,6 +8,7 @@ import cn.onekit.js.JsArray;
 import cn.onekit.js.JsNumber;
 import cn.onekit.js.JsObject;
 
+import cn.onekit.js.JsString;
 import cn.onekit.thekit.COLOR;
 
 public class WxAnimation extends WxAnalytics {

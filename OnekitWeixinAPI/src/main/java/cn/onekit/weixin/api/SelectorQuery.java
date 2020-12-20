@@ -4,7 +4,7 @@ import androidx.core.view.KeyEventDispatcher;
 
 import cn.onekit.js.JsObject;
 import cn.onekit.js.Map;
-import cn.onekit.js.core.function;
+import cn.onekit.js.function;
 
 public class SelectorQuery {
     public NodesRef exec(function callback){

@@ -17,7 +17,7 @@ import java.lang.reflect.Field;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import cn.onekit.weixin.app.R;
+import cn.onekit.weixin.api.R;
 
 /**
  * Created by lenovo on 2017/6/20.

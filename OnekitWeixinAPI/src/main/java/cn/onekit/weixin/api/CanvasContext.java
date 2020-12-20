@@ -4,7 +4,7 @@ import cn.onekit.js.JsArray;
 import cn.onekit.js.JsBoolean;
 import cn.onekit.js.JsObject;
 import cn.onekit.js.Map;
-import cn.onekit.js.core.function;
+import cn.onekit.js.function;
 
 public class CanvasContext {
     private CanvasGradient fillStyle;

@@ -6,9 +6,10 @@ import android.media.MediaPlayer;
 import android.net.Uri;
 
 import cn.onekit.js.JsObject;
-import cn.onekit.JsAny;
+import cn.onekit.js.JsAny;
 
-import cn.onekit.js.core.function;
+import cn.onekit.js.JsString;
+import cn.onekit.js.function;
 
 public  class BackgroundAudioManager {
     private int duration ;      //当前音频的长度

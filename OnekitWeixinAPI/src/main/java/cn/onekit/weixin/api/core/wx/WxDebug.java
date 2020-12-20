@@ -5,12 +5,11 @@ import android.provider.Settings;
 import java.util.Map;
 
 import cn.onekit.js.JsObject;
-import cn.onekit.js.core.function;
+import cn.onekit.js.function;
 import cn.onekit.thekit.Android;
-import cn.onekit.weixin.LogManager;
-import cn.onekit.weixin.RealtimeLogManager;
-import cn.onekit.weixin.app.R;
-import cn.onekit.weixin.core.res.wx_fail;
+import cn.onekit.weixin.api.LogManager;
+import cn.onekit.weixin.api.R;
+import cn.onekit.weixin.api.core.res.wx_fail;
 
 public class WxDebug extends WxCompass {
     public void setEnableDebug(Map OBJECT) {
@@ -42,9 +41,6 @@ public class WxDebug extends WxCompass {
                 complete.invoke(res);
             }
         }
-    }
-    public RealtimeLogManager getRealtimeLogManager(){
-              return null;
     }
     public LogManager getLogManager(Map OBJECT){
         return null;

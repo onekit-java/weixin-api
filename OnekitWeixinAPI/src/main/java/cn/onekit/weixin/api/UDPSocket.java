@@ -11,9 +11,10 @@ import java.util.Map;
 import cn.onekit.js.ArrayBuffer;
 import cn.onekit.js.JsNumber;
 import cn.onekit.js.JsObject;
-import cn.onekit.JsAny;
+import cn.onekit.js.JsAny;
 
-import cn.onekit.js.core.function;
+import cn.onekit.js.JsString;
+import cn.onekit.js.function;
 
 
 @SuppressWarnings("unused")
@@ -54,7 +55,7 @@ public class UDPSocket  {
                                     put("message",new ArrayBuffer(packetRcv.getData()));
                                 }});*/
                             }
-                        } catch (IOException e) {
+                        } catch (final IOException e) {
                             e.printStackTrace();
 
                             if(errorCallback!=null) {
@@ -67,7 +68,7 @@ public class UDPSocket  {
                 }
             }).start();
             return new JsNumber(socket.getLocalPort());
-        }catch (Exception e){
+        }catch (final Exception e){
             e.printStackTrace();
             if(errorCallback!=null) {
                 errorCallback.invoke(new JsObject(){{
@@ -133,7 +134,7 @@ public class UDPSocket  {
         this.messageCallback = callback;
     }
 
-    public void send(Map OBJECT) {
+    public void send(final Map OBJECT) {
         new Thread(){
             @Override
             public void run() {
@@ -148,7 +149,7 @@ public class UDPSocket  {
                     //////////////////////////////////////
                     DatagramPacket packetSend = new DatagramPacket(message, offset, length, InetAddress.getByName(address), port);
                     socket.send(packetSend);
-                } catch (Exception e) {
+                } catch (final Exception e) {
                     e.printStackTrace();
                     if(errorCallback!=null) {
                         errorCallback.invoke(new JsObject(){{

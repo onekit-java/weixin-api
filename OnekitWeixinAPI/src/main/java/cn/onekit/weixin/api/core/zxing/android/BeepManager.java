@@ -29,7 +29,7 @@ import android.util.Log;
 import java.io.Closeable;
 import java.io.IOException;
 
-import cn.onekit.weixin.app.R;
+import cn.onekit.weixin.api.R;
 
 
 /**

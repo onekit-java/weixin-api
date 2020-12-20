@@ -18,9 +18,10 @@ import java.io.IOException;
 import java.util.Map;
 
 import cn.onekit.js.JsObject;
-import cn.onekit.JsAny;
+import cn.onekit.js.JsAny;
 
-import cn.onekit.js.core.function;
+import cn.onekit.js.JsString;
+import cn.onekit.js.function;
 import cn.onekit.thekit.Android;
 import okhttp3.Call;
 import okhttp3.Callback;

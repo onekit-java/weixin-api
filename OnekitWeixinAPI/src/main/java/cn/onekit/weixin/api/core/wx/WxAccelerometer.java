@@ -9,11 +9,11 @@ import android.hardware.SensorManager;
 import java.util.Map;
 
 import cn.onekit.js.JsObject;
-import cn.onekit.JsAny;
-import cn.onekit.js.core.function;
+import cn.onekit.js.JsAny;
+import cn.onekit.js.function;
 import cn.onekit.thekit.Android;
-import cn.onekit.weixin.app.R;
-import cn.onekit.weixin.core.res.wx_fail;
+import cn.onekit.weixin.api.R;
+import cn.onekit.weixin.api.core.res.wx_fail;
 
 public class WxAccelerometer  {
     private  function callback;

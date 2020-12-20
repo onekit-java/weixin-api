@@ -2,8 +2,8 @@ package cn.onekit.weixin.api.core.wx;
 
 import java.util.Map;
 
-import cn.onekit.weixin.InterstitialAd;
-import cn.onekit.weixin.RewardedVideoAd;
+import cn.onekit.weixin.api.InterstitialAd;
+import cn.onekit.weixin.api.RewardedVideoAd;
 
 public class WxAD extends WxAccountInfo {
     public RewardedVideoAd createRewardedVideoAd(Map OBJECT){
